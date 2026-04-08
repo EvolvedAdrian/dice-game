@@ -18,13 +18,13 @@
         gap: 1.2rem;
         transform: translate(0);
         height: auto;
-        padding: 0 3.2rem;
+        padding: 2.4rem 3.2rem;
         order: -1;
         background-color: var(--color-primary-bg);
     }
-
+    
     @media (max-width: 37.5em){
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
@@ -36,6 +36,10 @@
 
     @media (max-width: 60em){
         order: -1;
+    }
+    @media (max-width: 37.5em){
+        width: 9.6rem;
+        height: 9.6rem;
     }
 }
 
